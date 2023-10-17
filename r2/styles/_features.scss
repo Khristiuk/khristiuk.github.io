@@ -1,0 +1,65 @@
+.features-section {
+  &__title {
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    margin-bottom: 80px;
+  }
+
+  &__content {
+    display: flex;  
+  }
+
+  &__images {
+    position: relative;
+    width: 752px;
+    height: 760px;
+    margin-right: 46px;
+  }
+
+  &__panel-image {
+    position: absolute;
+    left: 28px;
+    top: 0;
+    width: 696px;
+    height: 660px;
+  }
+
+  &__graphic-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 276px;
+  }
+  
+  &__list {
+    width: 100%;
+    max-width: 270px;
+    margin-top: 74px;
+
+    &-title {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 24px;
+      padding-left: 10px;
+    }
+  }
+
+  &__list-item {
+    margin-bottom: 35px;
+    text-align: left;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    svg {
+      margin-right: 10px;
+    }
+  }
+}  

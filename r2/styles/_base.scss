@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+$xl: 1200px;
+
+:root {
+  --bg-color: #181818;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--bg-color);
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 400;
+}
+
+.button {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+
+  &:hover {
+    background-color: #4452FE;
+    border-color: #4452FE;
+  }
+
+  &--small {
+    padding: 14px 46px;
+  }
+
+  &--large {
+    padding: 20px 40px;
+  }
+}
+
+.section {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 100px;
+
+  &-title {
+    margin-bottom: 26px;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+  }
+
+  &-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.flex {
+  display: flex;
+  &.justify-center {
+    justify-content: center;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+}
